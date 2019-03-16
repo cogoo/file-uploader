@@ -1,0 +1,75 @@
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+
+}
+
+@media (min-width: 768px) {
+  img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50vw;
+  }
+}
+
+.app-home {
+  padding: 50px 50px 0px;
+}
+
+.app-home__btn {
+  min-width: 200px;
+}
+
+.app-home__add-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 6px;
+}
+
+.btn {
+  background: #000;
+  color: white;
+  margin: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+  outline: 0;
+  letter-spacing: .04em;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+.btn--secondary {
+  background: linear-gradient(to right,#ffb100, #ffc401 )
+}
+
+.btn--round {
+  border-radius: 30px;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+  transform: translateY(1px);
+}
+
+.hidden {
+  visibility: hidden;
+}
